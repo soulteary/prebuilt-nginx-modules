@@ -5,6 +5,7 @@ Pre-built modules for nginx.
 ## List
 
 ```
+soulteary/prebuilt-nginx-modules              headers-more-1.19.7-alpine 
 soulteary/prebuilt-nginx-modules              http-redis-1.19.7-alpine
 soulteary/prebuilt-nginx-modules              echo-1.19.7-alpine       
 soulteary/prebuilt-nginx-modules              set-misc-1.19.7-alpine   
