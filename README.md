@@ -13,6 +13,7 @@ soulteary/prebuilt-nginx-modules:redis2-1.19.8-alpine
 soulteary/prebuilt-nginx-modules:memc-1.19.8-alpine
 soulteary/prebuilt-nginx-modules:srcache-1.19.8-alpine
 soulteary/prebuilt-nginx-modules:base-1.19.8-alpine
+soulteary/prebuilt-nginx-modules:waf-1.19.8-alpine
 ```
 
 ## Nginx 1.19.7 Images
