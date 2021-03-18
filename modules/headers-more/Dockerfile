@@ -1,11 +1,12 @@
-FROM soulteary/prebuilt-nginx-modules:base-1.19.7-alpine AS Builder
+ARG NGINX_VERSION=1.19.7
+FROM soulteary/prebuilt-nginx-modules:base-${NGINX_VERSION}-alpine AS Builder
 
-ARG MODULE_CHECKSUM=200dbd4f7084a7fa2c0fb416f3eef64c86719ce1
-ARG MODULE_VERSION=0.3.9
-ARG MODULE_NAME=ngx_http_redis
+ARG MODULE_CHECKSUM=7d6af910dae98f0dbc67bf77e82eab8b7da5d0b1
+ARG MODULE_VERSION=0.33
+ARG MODULE_NAME=headers-more-nginx-module
 
 RUN cd /usr/src && \
-    curl -L "https://people.freebsd.org/~osa/ngx_http_redis-${MODULE_VERSION}.tar.gz" -o "v${MODULE_VERSION}.tar.gz" && \
+    curl -L "https://github.com/openresty/headers-more-nginx-module/archive/v${MODULE_VERSION}.tar.gz" -o "v${MODULE_VERSION}.tar.gz" && \
     echo "${MODULE_CHECKSUM}  v${MODULE_VERSION}.tar.gz" | shasum -c && \
     tar -zxC /usr/src -f v${MODULE_VERSION}.tar.gz && \
     cd /usr/src && \
@@ -19,4 +20,4 @@ RUN cd /usr/src && \
 
 FROM scratch
 
-COPY --from=Builder /usr/src/nginx/objs/ngx_http_redis_module.so /
+COPY --from=Builder /usr/src/nginx/objs/ngx_http_headers_more_filter_module.so /

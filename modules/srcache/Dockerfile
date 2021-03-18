@@ -1,4 +1,5 @@
-FROM soulteary/prebuilt-nginx-modules:base-1.19.7-alpine AS Builder
+ARG NGINX_VERSION=1.19.7
+FROM soulteary/prebuilt-nginx-modules:base-${NGINX_VERSION}-alpine AS Builder
 
 ARG MODULE_CHECKSUM=dacf3db7dfcd971128b10902a3c0769fb80ea764
 ARG SRCACHE_VERSION=0.32

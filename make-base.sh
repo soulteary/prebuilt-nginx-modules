@@ -1,7 +1,7 @@
 #!/bin/bash
 
-RELEASE_DIR='./baseImage';
-REPO_NAME='soulteary/prebuilt-nginx-modules'
+RELEASE_DIR="./baseImage";
+REPO_NAME="soulteary/prebuilt-nginx-modules"
 
 set -a
     . "$RELEASE_DIR/.env"
