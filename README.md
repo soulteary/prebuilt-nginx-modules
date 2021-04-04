@@ -5,6 +5,7 @@ Some useful pre-built dynamic modules for nginx.
 ## Nginx 1.19.8 Images
 
 ```
+soulteary/prebuilt-nginx-modules:dynamic-upstream-1.19.8-alpine
 soulteary/prebuilt-nginx-modules:headers-more-1.19.8-alpine
 soulteary/prebuilt-nginx-modules:http-redis-1.19.8-alpine
 soulteary/prebuilt-nginx-modules:echo-1.19.8-alpine
