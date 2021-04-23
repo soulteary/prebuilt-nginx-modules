@@ -2,6 +2,20 @@
 
 Some useful pre-built dynamic modules for nginx.
 
+## Nginx 1.19.10 Images
+
+```
+soulteary/prebuilt-nginx-modules:dynamic-upstream-1.19.10-alpine
+soulteary/prebuilt-nginx-modules:headers-more-1.19.10-alpine
+soulteary/prebuilt-nginx-modules:http-redis-1.19.10-alpine
+soulteary/prebuilt-nginx-modules:echo-1.19.10-alpine
+soulteary/prebuilt-nginx-modules:set-misc-1.19.10-alpine
+soulteary/prebuilt-nginx-modules:redis2-1.19.10-alpine
+soulteary/prebuilt-nginx-modules:memc-1.19.10-alpine
+soulteary/prebuilt-nginx-modules:srcache-1.19.10-alpine
+soulteary/prebuilt-nginx-modules:base-1.19.10-alpine
+soulteary/prebuilt-nginx-modules:waf-1.19.10-alpine
+```
 ## Nginx 1.19.9 Images
 
 ```
