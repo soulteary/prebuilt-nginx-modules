@@ -1,0 +1,43 @@
+# https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source/#sources
+
+ARG NGINX_VERSION=1.19.7
+FROM nginx:${NGINX_VERSION}
+# Mirror
+# RUN sed -i 's/http:\/\/.*.debian.org/http:\/\/mirrors.tuna.tsinghua.edu.cn/' /etc/apt/sources.list
+
+ARG NGINX_SHASUM=0dde53b5a948efc9dc852814186052e559d190ea
+
+RUN sed -i '/deb http:\/\/nginx.org\/packages\/debian\/ stretch nginx/d' /etc/apt/sources.list && \
+    sed -i '/deb http:\/\/mirrors.tuna.tsinghua.edu.cn stretch\/updates main/d' /etc/apt/sources.list && \
+    apt-get update && \
+    apt-get install -y apt-transport-https lsb-release ca-certificates && \
+    apt-get install -y build-essential software-properties-common && \
+    apt install -y perl libperl-dev libgd3 libgd-dev libgeoip1 libgeoip-dev geoip-bin libxml2 libxml2-dev libxslt1.1 libxslt1-dev libc6-dev libpcre3-dev&& \
+    apt install -y wget curl && mkdir -p /usr/src
+
+RUN cd /usr/src && \
+    wget https://ftp.pcre.org/pub/pcre/pcre-8.44.tar.gz && \
+    tar zxvf pcre-8.44.tar.gz && \
+    cd pcre-8.44 && \
+    ./configure && make && make install
+     
+RUN cd /usr/src && \
+    wget https://www.zlib.net/zlib-1.2.11.tar.gz && \
+    tar zxvf zlib-1.2.11.tar.gz && \
+    cd zlib-1.2.11 && \
+    ./configure && make && make install
+
+RUN cd /usr/src && \
+    wget http://www.openssl.org/source/openssl-1.1.1k.tar.gz && \
+    tar zxvf openssl-1.1.1k.tar.gz && \
+    cd openssl-1.1.1k && \
+    ./config && make && make install
+
+RUN cd /usr/src && \
+    curl -L "http://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz" -o nginx.tar.gz && \
+    echo "$NGINX_SHASUM  nginx.tar.gz" | shasum -c && \
+    tar -zxC /usr/src -f nginx.tar.gz && \
+    cd /usr/src && \
+    mv /usr/src/nginx-$NGINX_VERSION /usr/src/nginx && \
+    CONFARGS=$(nginx -V 2>&1 | sed -n -e 's/^.*arguments: //p' | sed -n -e 's/--with-cc-opt=.*//p') && \
+    export CONFARGS;
