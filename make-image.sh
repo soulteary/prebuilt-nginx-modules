@@ -13,5 +13,5 @@ for moduleName in $RELEASE_DIR/*; do
     echo "Build: $BUILD_NAME";
     BUILD_ARGS=$(tr '\n' ';' < "$moduleName/.env" | sed 's/;$/\n/' | sed 's/^/ --build-arg /' | sed 's/;/ --build-arg /g')
 
-    docker build $BUILD_ARGS --tag $BUILD_NAME -f $moduleName/Dockerfile .
+    docker build $BUILD_ARGS --tag $BUILD_NAME -f $moduleName/Dockerfile.alpine .
 done
