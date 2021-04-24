@@ -40,4 +40,6 @@ RUN cd /usr/src && \
     cd /usr/src && \
     mv /usr/src/nginx-$NGINX_VERSION /usr/src/nginx && \
     CONFARGS=$(nginx -V 2>&1 | sed -n -e 's/^.*arguments: //p' | sed -n -e 's/--with-cc-opt=.*//p') && \
-    export CONFARGS=$CONFARGS
+    echo "CONFARGS=\"$CONFARGS\"" >>~/.bashrc && echo "export CONFARGS" >>~/.bashrc
+
+SHELL ["/bin/bash", "-c"]
