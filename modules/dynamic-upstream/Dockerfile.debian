@@ -12,8 +12,6 @@ RUN cd /usr/src && \
     cd /usr/src && \
     mv ${MODULE_NAME}-${MODULE_VERSION}/ ${MODULE_NAME} && \
     cd /usr/src/nginx && \
-    CONFARGS=$(nginx -V 2>&1 | sed -n -e 's/^.*arguments: //p') \
-    CONFARGS=${CONFARGS/-Os -fomit-frame-pointer -g/-Os} && \
     echo $CONFARGS && \
     ./configure --with-compat $CONFARGS --add-dynamic-module=../${MODULE_NAME}/ && \
     make modules
