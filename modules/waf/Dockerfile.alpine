@@ -5,7 +5,7 @@ ARG MODULE_CHECKSUM=23bca3f994b24b7fad28bdaccd02b52f655b8917
 ARG MODULE_VERSION=3.1.6
 ARG MODULE_NAME=ngx_waf
 
-RUN apk add uthash-dev git
+RUN apk add uthash-dev git libsodium libsodium-dev
 RUN cd /usr/src && \
     curl -L "https://github.com/ADD-SP/ngx_waf/archive/v${MODULE_VERSION}.tar.gz" -o "v${MODULE_VERSION}.tar.gz" && \
     echo "${MODULE_CHECKSUM}  v${MODULE_VERSION}.tar.gz" | shasum -c && \
