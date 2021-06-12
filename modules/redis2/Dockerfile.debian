@@ -1,5 +1,5 @@
 ARG NGINX_VERSION=1.19.7
-FROM soulteary/prebuilt-nginx-modules:base-${NGINX_VERSION}-alpine AS Builder
+FROM soulteary/prebuilt-nginx-modules:base-${NGINX_VERSION} AS Builder
 
 ARG MODULE_CHECKSUM=b358aa19f7a3f31584751a9f4e477c5f27d4474a
 ARG REDIS_VERSION=0.15

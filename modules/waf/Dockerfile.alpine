@@ -5,13 +5,15 @@ ARG MODULE_CHECKSUM=23bca3f994b24b7fad28bdaccd02b52f655b8917
 ARG MODULE_VERSION=3.1.6
 ARG MODULE_NAME=ngx_waf
 
-RUN apk add uthash-dev
+RUN apk add uthash-dev git
 RUN cd /usr/src && \
     curl -L "https://github.com/ADD-SP/ngx_waf/archive/v${MODULE_VERSION}.tar.gz" -o "v${MODULE_VERSION}.tar.gz" && \
     echo "${MODULE_CHECKSUM}  v${MODULE_VERSION}.tar.gz" | shasum -c && \
     tar -zxC /usr/src -f v${MODULE_VERSION}.tar.gz && \
     cd /usr/src && \
     mv ${MODULE_NAME}-${MODULE_VERSION}/ ${MODULE_NAME} && \
+    git clone https://github.com/libinjection/libinjection.git ${MODULE_NAME}/inc/libinjection && \
+    cd ${MODULE_NAME}/inc/libinjection && git checkout ${LIBINJECTION_CHECKSUM} && \
     cd /usr/src/nginx && \
     CONFARGS=$(nginx -V 2>&1 | sed -n -e 's/^.*arguments: //p') \
     CONFARGS=${CONFARGS/-Os -fomit-frame-pointer -g/-Os} && \
