@@ -2,8 +2,9 @@
 
 Some useful pre-built dynamic modules for nginx.
 
+## Nginx Images
 
-## Nginx 1.21.0 Images
+**Current Nginx program version: 1.21.0 **
 
 <table>
     <thead>
@@ -29,6 +30,13 @@ Some useful pre-built dynamic modules for nginx.
             <td>ngx_echo - Brings "echo", "sleep", "time", "exec" and more shell-style goodies to Nginx config file.</td>
             <td>0.62</td>
             <td>docker pull soulteary/prebuilt-nginx-modules:echo-1.21.0</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/openresty/encrypted-session-nginx-module">encrypted-session-nginx-module</a></td>
+            <td>@openresty</td>
+            <td>encrypted-session-nginx-module - encrypt and decrypt nginx variable values.</td>
+            <td>0.08</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:encrypted-session-1.21.0</td>
         </tr>
         <tr>
             <td><a href="https://github.com/openresty/headers-more-nginx-module">headers-more-nginx-module</a></td>
