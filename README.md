@@ -61,42 +61,49 @@ Some useful pre-built dynamic modules for nginx.
         </tr>
         <tr>
             <td><a href="https://github.com/openresty/memc-nginx-module">memc-nginx-module</a></td>
-            <td>openresty</td>
+            <td>@openresty</td>
             <td>An extended version of the standard memcached module that supports set, add, delete, and many more memcached commands.</td>
             <td>0.19</td>
             <td>docker pull soulteary/prebuilt-nginx-modules:memc-1.21.0</td>
         </tr>
         <tr>
             <td><a href="https://github.com/openresty/set-misc-nginx-module">set-misc-nginx-module</a></td>
-            <td>openresty</td>
+            <td>@openresty</td>
             <td>ngx_set_misc - Various set_xxx directives added to nginx's rewrite module (md5/sha1, sql/json quoting, and many more).</td>
             <td>0.32</td>
             <td>docker pull soulteary/prebuilt-nginx-modules:set-misc-1.21.0</td>
         </tr>
         <tr>
             <td><a href="https://github.com/openresty/redis2-nginx-module">redis2-nginx-module</a></td>
-            <td>openresty</td>
+            <td>@openresty</td>
             <td>ngx_redis2 - Nginx upstream module for the Redis 2.0 protocol</td>
             <td>0.15</td>
             <td>docker pull soulteary/prebuilt-nginx-modules:redis2-1.21.0</td>
         </tr>
         <tr>
+            <td><a href="https://github.com/arut/nginx-rtmp-module">redis2-nginx-module</a></td>
+            <td>@arut</td>
+            <td>NGINX-based Media Streaming Server</td>
+            <td>1.2.2</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:rtmp-1.21.0/td>
+        </tr>
+        <tr>
             <td><a href="https://github.com/openresty/srcache-nginx-module">srcache-nginx-module</a></td>
-            <td>openresty</td>
+            <td>@openresty</td>
             <td>Transparent subrequest-based caching layout for arbitrary nginx locations.</td>
             <td>0.32</td>
             <td>docker pull soulteary/prebuilt-nginx-modules:srcache-1.21.0</td>
         </tr>
         <tr>
             <td><a href="https://github.com/ADD-SP/ngx_waf">ngx_waf</a></td>
-            <td>ADD-SP</td>
+            <td>@ADD-SP</td>
             <td>Handy, High performance Nginx firewall module.</td>
             <td>3.1.6</td>
             <td>docker pull soulteary/prebuilt-nginx-modules:waf-1.21.0</td>
         </tr>
         <tr>
             <td><a href="https://github.com/openresty/xss-nginx-module">xss-nginx-module</a></td>
-            <td>openresty</td>
+            <td>@openresty</td>
             <td>xss-nginx-module - Native cross-site scripting support in nginx</td>
             <td>0.06</td>
             <td>docker pull soulteary/prebuilt-nginx-modules:xss-nginx-1.21.0</td>
