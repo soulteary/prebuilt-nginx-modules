@@ -1,0 +1,22 @@
+ARG NGINX_VERSION=1.21.0
+FROM soulteary/prebuilt-nginx-modules:base-${NGINX_VERSION} AS Builder
+
+ARG MODULE_CHECKSUM=78545167044be2653300e4f9e51b894c7f30293e
+ARG MODULE_VERSION=master
+ARG MODULE_NAME=testcookie-nginx-module
+
+RUN apt install unzip -y
+RUN cd /usr/src && \
+    curl -L "https://github.com/kyprizel/testcookie-nginx-module/archive/refs/heads/${MODULE_VERSION}.zip" -o "v${MODULE_VERSION}.zip" && \
+    echo "${MODULE_CHECKSUM}  v${MODULE_VERSION}.zip" | shasum -c && \
+    unzip v${MODULE_VERSION}.zip && \
+    cd /usr/src && \
+    mv ${MODULE_NAME}-${MODULE_VERSION}/ ${MODULE_NAME} && \
+    cd /usr/src/nginx && \
+    echo $CONFARGS && \
+    ./configure --with-compat $CONFARGS --add-dynamic-module=../${MODULE_NAME}/ && \
+    make modules
+
+FROM scratch
+
+COPY --from=Builder /usr/src/nginx/objs/ngx_http_testcookie_access_module.so /
