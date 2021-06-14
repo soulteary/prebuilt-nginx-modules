@@ -88,6 +88,13 @@ Some useful pre-built dynamic modules for nginx.
             <td>docker pull soulteary/prebuilt-nginx-modules:redis2-1.21.0</td>
         </tr>
         <tr>
+            <td><a href="https://github.com/yaoweibin/ngx_http_substitutions_filter_module">ngx_http_substitutions_filter_module</a></td>
+            <td>@yaoweibin</td>
+            <td>a filter module which can do both regular expression and fixed string substitutions for nginx</td>
+            <td>b8a71ea</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:http-substitutions-filter-1.21.0</td>
+        </tr>
+        <tr>
             <td><a href="https://github.com/arut/nginx-rtmp-module">redis2-nginx-module</a></td>
             <td>@arut</td>
             <td>NGINX-based Media Streaming Server</td>
