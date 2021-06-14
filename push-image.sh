@@ -1,20 +1,6 @@
 #!/bin/bash
 
 REPO_NAME="soulteary/prebuilt-nginx-modules"
-RELEASE_DIR="./baseImage";
-
-set -a
-    . "$RELEASE_DIR/.env"
-set +a
-
-TAG="base-$NGINX_VERSION-alpine";
-DIST="$REPO_NAME:$TAG"
-
-if [[ "$(docker images -q $DIST 2> /dev/null)" != "" ]]; then
-    echo "Push: $DIST";
-    docker push $DIST;
-fi
-
 RELEASE_DIR="./modules";
 
 for moduleName in $RELEASE_DIR/*; do

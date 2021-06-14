@@ -1,6 +1,11 @@
 # Pre-Built Nginx Modules
 
-Some useful pre-built dynamic modules for nginx.
+A bunch of useful pre-built modules for nginx, can be used directly in docker or Debian/Ubuntu.
+
+## Build Env
+
+- https://github.com/nginx-with-docker/nginx-docker-playground
+  - Nginx Development Environment based on official docker image.
 
 ## Nginx Images
 
@@ -121,6 +126,13 @@ Some useful pre-built dynamic modules for nginx.
             <td>simple robot mitigation module using cookie based challenge/response technique. Not supported any more.</td>
             <td>5113746</td>
             <td>docker pull soulteary/prebuilt-nginx-modules:testcookie-1.21.0</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/arut/nginx-ts-module">nginx-ts-module</a></td>
+            <td>@arut</td>
+            <td>NGINX MPEG-TS Live Module.</td>
+            <td>ef2f874</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:ts-1.21.0</td>
         </tr>
         <tr>
             <td><a href="https://github.com/fdintino/nginx-upload-module">nginx-upload-module</a></td>
