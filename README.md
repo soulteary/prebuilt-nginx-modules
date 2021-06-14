@@ -102,6 +102,13 @@ Some useful pre-built dynamic modules for nginx.
             <td>docker pull soulteary/prebuilt-nginx-modules:srcache-1.21.0</td>
         </tr>
         <tr>
+            <td><a href="https://github.com/vozlt/nginx-module-vts">nginx-module-vts</a></td>
+            <td>@vozlt</td>
+            <td>Nginx virtual host traffic status module.</td>
+            <td>0.1.18</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:vts-1.21.0</td>
+        </tr>
+        <tr>
             <td><a href="https://github.com/ADD-SP/ngx_waf">ngx_waf</a></td>
             <td>@ADD-SP</td>
             <td>Handy, High performance Nginx firewall module.</td>
