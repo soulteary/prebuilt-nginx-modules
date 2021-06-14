@@ -18,6 +18,13 @@ Some useful pre-built dynamic modules for nginx.
     </thead>
     <tbody>
         <tr>
+            <td><a href="https://github.com/openresty/array-var-nginx-module">array-var-nginx-module</a></td>
+            <td>@openresty</td>
+            <td>array-var-nginx-module - Add support for array-typed variables to nginx config files.</td>
+            <td>0.05</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:array-var-nginx-1.21.0</td>
+        </tr>
+        <tr>
             <td><a href="https://github.com/cubicdaiya/ngx_dynamic_upstream">ngx_dynamic_upstream</a></td>
             <td>@cubicdaiya</td>
             <td>ngx_dynamic_upstream is the module for operating upstreams dynamically with HTTP APIs such as ngx_http_upstream_conf.</td>
