@@ -1,0 +1,22 @@
+ARG NGINX_VERSION=1.21.0
+FROM soulteary/prebuilt-nginx-modules:base-${NGINX_VERSION} AS Builder
+
+ARG MODULE_CHECKSUM=d7fb115bc59f2d13cb660478c2582895177ef0f4
+ARG MODULE_VERSION=master
+ARG MODULE_NAME=nginx-ts-module
+
+RUN apt install unzip -y
+RUN cd /usr/src && \
+    curl -L "https://github.com/arut/nginx-ts-module/archive/refs/heads/${MODULE_VERSION}.zip" -o "v${MODULE_VERSION}.zip" && \
+    echo "${MODULE_CHECKSUM}  v${MODULE_VERSION}.zip" | shasum -c && \
+    unzip v${MODULE_VERSION}.zip && \
+    cd /usr/src && \
+    mv ${MODULE_NAME}-${MODULE_VERSION}/ ${MODULE_NAME} && \
+    cd /usr/src/nginx && \
+    echo $CONFARGS && \
+    ./configure --with-compat $CONFARGS --add-dynamic-module=../${MODULE_NAME}/ && \
+    make modules
+
+FROM scratch
+
+COPY --from=Builder /usr/src/nginx/objs/ngx_http_ts_module.so /
