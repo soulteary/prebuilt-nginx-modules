@@ -87,6 +87,13 @@ Some useful pre-built dynamic modules for nginx.
             <td>3.1.6</td>
             <td>docker pull soulteary/prebuilt-nginx-modules:waf-1.21.0</td>
         </tr>
+        <tr>
+            <td><a href="https://github.com/openresty/xss-nginx-module">xss-nginx-module</a></td>
+            <td>openresty</td>
+            <td>xss-nginx-module - Native cross-site scripting support in nginx</td>
+            <td>0.06</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:xss-nginx-1.21.0</td>
+        </tr>
     </tbody>
 </table>
 
