@@ -53,6 +53,13 @@ Some useful pre-built dynamic modules for nginx.
             <td>docker pull soulteary/prebuilt-nginx-modules:headers-more-1.21.0</td>
         </tr>
         <tr>
+            <td><a href="https://github.com/winshining/nginx-http-flv-module">nginx-http-flv-module</a></td>
+            <td>@winshining</td>
+            <td>Media streaming server based on nginx-rtmp-module.</td>
+            <td>1.2.9</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:http-flv-1.21.0</td>
+        </tr>
+        <tr>
             <td><a href="https://www.nginx.com/resources/wiki/modules/redis/">ngx_http_redis</a></td>
             <td>@Sergey A. Osokin</td>
             <td>You can use this module to perform simple caching.</td>
