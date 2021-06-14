@@ -116,6 +116,13 @@ Some useful pre-built dynamic modules for nginx.
             <td>docker pull soulteary/prebuilt-nginx-modules:srcache-1.21.0</td>
         </tr>
         <tr>
+            <td><a href="https://github.com/fdintino/nginx-upload-module">nginx-upload-module</a></td>
+            <td>@fdintino</td>
+            <td>A module for nginx web server for handling file uploads using multipart/form-data encoding (RFC 1867).</td>
+            <td>643b4c1</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:upload-1.21.0</td>
+        </tr>
+        <tr>
             <td><a href="https://github.com/vozlt/nginx-module-vts">nginx-module-vts</a></td>
             <td>@vozlt</td>
             <td>Nginx virtual host traffic status module.</td>
