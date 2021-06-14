@@ -81,6 +81,13 @@ Some useful pre-built dynamic modules for nginx.
             <td>docker pull soulteary/prebuilt-nginx-modules:set-misc-1.21.0</td>
         </tr>
         <tr>
+            <td><a href="https://github.com/wandenberg/nginx-push-stream-module">nginx-push-stream-module</a></td>
+            <td>@wandenberg</td>
+            <td>A pure stream http push technology for your Nginx setup. Comet made easy and really scalable.</td>
+            <td>1cdc015</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:push-stream-1.21.0</td>
+        </tr>
+        <tr>
             <td><a href="https://github.com/openresty/redis2-nginx-module">redis2-nginx-module</a></td>
             <td>@openresty</td>
             <td>ngx_redis2 - Nginx upstream module for the Redis 2.0 protocol</td>
