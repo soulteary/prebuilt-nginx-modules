@@ -116,6 +116,13 @@ Some useful pre-built dynamic modules for nginx.
             <td>docker pull soulteary/prebuilt-nginx-modules:srcache-1.21.0</td>
         </tr>
         <tr>
+            <td><a href="https://github.com/kyprizel/testcookie-nginx-module">testcookie-nginx-module</a></td>
+            <td>@kyprizel</td>
+            <td>simple robot mitigation module using cookie based challenge/response technique. Not supported any more.</td>
+            <td>5113746</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:testcookie-1.21.0</td>
+        </tr>
+        <tr>
             <td><a href="https://github.com/fdintino/nginx-upload-module">nginx-upload-module</a></td>
             <td>@fdintino</td>
             <td>A module for nginx web server for handling file uploads using multipart/form-data encoding (RFC 1867).</td>
