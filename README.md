@@ -112,10 +112,10 @@ A bunch of useful pre-built modules for nginx, can be used directly in docker or
             <td>5113746</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/arut/nginx-ts-module">nginx-ts-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_ts_module">ngx_http_ts_module</a></td>
             <td>@arut</td>
             <td>NGINX MPEG-TS Live Module.</td>
-            <td>ef2f874</td>
+            <td>master/1.0.1/custom</td>
         </tr>
         <tr>
             <td><a href="https://github.com/fdintino/nginx-upload-module">nginx-upload-module</a></td>
@@ -133,7 +133,7 @@ A bunch of useful pre-built modules for nginx, can be used directly in docker or
             <td><a href="https://github.com/nginx-with-docker/ngx_http_waf_module">ngx_http_waf_module</a></td>
             <td>@ADD-SP</td>
             <td>Handy, High performance Nginx firewall module.</td>
-            <td>3.1.6</td>
+            <td>5.4.2/5.4.1/3.1.6</td>
         </tr>
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_xss_filter_module">ngx_http_xss_filter_module</a></td>
