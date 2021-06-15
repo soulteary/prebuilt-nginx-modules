@@ -37,7 +37,7 @@ A bunch of useful pre-built modules for nginx, can be used directly in docker or
             <td>docker pull soulteary/prebuilt-nginx-modules:dynamic-upstream-1.21.0</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/openresty/echo-nginx-module">echo-nginx-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_echo_module">ngx_http_echo_module</a></td>
             <td>@openresty</td>
             <td>ngx_echo - Brings "echo", "sleep", "time", "exec" and more shell-style goodies to Nginx config file.</td>
             <td>0.62</td>
