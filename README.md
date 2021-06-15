@@ -9,7 +9,7 @@ A bunch of useful pre-built modules for nginx, can be used directly in docker or
 
 ## Nginx Images
 
-**Current Nginx program version: 1.21.0 **
+The modules are compatible with nginx version to 1.21.0
 
 <table>
     <thead>
@@ -182,20 +182,3 @@ A bunch of useful pre-built modules for nginx, can be used directly in docker or
         </tr>
     </tbody>
 </table>
-
-
-For Alpine, you can use image with `-alpine` suffix, eg:
-
-- debian: soulteary/prebuilt-nginx-modules:headers-more-1.21.0
-- alpine: soulteary/prebuilt-nginx-modules:headers-more-1.21.0-alpine
-
-## Nginx Versions
-
-Below are other available nginx versions.
-
-- 1.21.0
-- 1.20.0
-- 1.19.10
-- 1.19.9
-- 1.19.8
-- 1.19.7
