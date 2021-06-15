@@ -103,9 +103,9 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">A pure stream http push technology for your Nginx setup. Comet made easy and really scalable.</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/openresty/redis2-nginx-module">redis2-nginx-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_redis2_module">ngx_http_redis2_module</a></td>
             <td>@openresty</td>
-            <td>0.15</td>
+            <td>master / 0.15</td>
         </tr>
         <tr>
             <td colspan="3">ngx_redis2 - Nginx upstream module for the Redis 2.0 protocol</td>
