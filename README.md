@@ -143,7 +143,7 @@ The modules are compatible with nginx version to 1.21.0
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_ts_module">ngx_http_ts_module</a></td>
             <td>@arut</td>
-            <td>master/1.0.1/custom</td>
+            <td>1.0.1 / master / custom</td>
         </tr>
         <tr>
             <td colspan="3">NGINX MPEG-TS Live Module.</td>
@@ -159,7 +159,7 @@ The modules are compatible with nginx version to 1.21.0
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_vhost_traffic_status_module">ngx_http_vhost_traffic_status_module</a></td>
             <td>@vozlt</td>
-            <td>0.1.18</td>
+            <td>0.1.18 / master</td>
         </tr>
         <tr>
             <td colspan="3">Nginx virtual host traffic status module.</td>
@@ -167,7 +167,7 @@ The modules are compatible with nginx version to 1.21.0
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_waf_module">ngx_http_waf_module</a></td>
             <td>@ADD-SP</td>
-            <td>5.4.2/5.4.1/3.1.6</td>
+            <td>5.4.1-5.4.2 / 3.1.6</td>
         </tr>
         <tr>
             <td colspan="3">Handy, High performance Nginx firewall module.</td>
