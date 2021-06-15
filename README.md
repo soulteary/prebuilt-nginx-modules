@@ -31,7 +31,7 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">array-var-nginx-module - Add support for array-typed variables to nginx config files.<br /></td>
         </tr>
         <tr>
-            <td><a href="https://github.com/cubicdaiya/ngx_dynamic_upstream">ngx_dynamic_upstream</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_dynamic_upstream_module">ngx_dynamic_upstream_module</a></td>
             <td>@cubicdaiya</td>
             <td>0.1.6</td>
         </tr>
