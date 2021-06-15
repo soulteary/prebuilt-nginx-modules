@@ -57,7 +57,7 @@ The modules are compatible with nginx version to 1.21.0
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_headers_more_filter_module">ngx_http_headers_more_filter_module</a></td>
             <td>@openresty</td>
-            <td>0.33</td>
+            <td>master / 0.33</td>
         </tr>
         <tr>
             <td colspan="3">ngx_headers_more - Set and clear input and output headers...more than "add"!</td>
@@ -81,15 +81,15 @@ The modules are compatible with nginx version to 1.21.0
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_memc_module">ngx_http_memc_module</a></td>
             <td>@openresty</td>
-            <td>0.19</td>
+            <td>master / 0.19</td>
         </tr>
         <tr>
             <td colspan="3">An extended version of the standard memcached module that supports set, add, delete, and many more memcached commands.</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/openresty/set-misc-nginx-module">set-misc-nginx-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_set_misc_module">ngx_http_set_misc_module</a></td>
             <td>@openresty</td>
-            <td>0.32</td>
+            <td>master / 0.32</td>
         </tr>
         <tr>
             <td colspan="3">ngx_set_misc - Various set_xxx directives added to nginx's rewrite module (md5/sha1, sql/json quoting, and many more).</td>
