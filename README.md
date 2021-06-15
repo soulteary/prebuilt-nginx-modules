@@ -149,7 +149,7 @@ A bunch of useful pre-built modules for nginx, can be used directly in docker or
             <td>docker pull soulteary/prebuilt-nginx-modules:vts-1.21.0</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/ADD-SP/ngx_waf">ngx_waf</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_waf_module">ngx_http_waf_module</a></td>
             <td>@ADD-SP</td>
             <td>Handy, High performance Nginx firewall module.</td>
             <td>3.1.6</td>
