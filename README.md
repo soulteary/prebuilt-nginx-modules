@@ -63,7 +63,7 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">ngx_headers_more - Set and clear input and output headers...more than "add"!</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/winshining/nginx-http-flv-module">nginx-http-flv-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_flv_live_module">ngx_http_flv_live_module</a></td>
             <td>@winshining</td>
             <td>1.2.9</td>
         </tr>
