@@ -133,9 +133,9 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">Transparent subrequest-based caching layout for arbitrary nginx locations.</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/kyprizel/testcookie-nginx-module">testcookie-nginx-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_testcookie_access_module">ngx_http_testcookie_access_module</a></td>
             <td>@kyprizel</td>
-            <td>5113746</td>
+            <td>master</td>
         </tr>
         <tr>
             <td colspan="3">simple robot mitigation module using cookie based challenge/response technique. Not supported any more.</td>
