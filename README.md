@@ -1,5 +1,7 @@
 # Pre-Built Nginx Modules
 
+<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1872" width="128" height="128"><path d="M512 0L68.48 256v512L512 1024l443.52-256V256L512 0z m256 707.84c0 30.08-27.562667 55.04-65.237333 55.04-26.922667 0-57.642667-10.88-76.842667-34.56l-256-304.682667v284.16c0 30.762667-24.32 55.04-54.357333 55.04H312.32c-30.762667 0-55.04-25.6-55.04-55.04V316.16c0-30.08 26.88-55.04 64-55.04 27.562667 0 58.88 10.88 78.08 34.56l254.72 304.682667V316.16c0-30.762667 25.6-55.04 55.04-55.04h3.2c30.72 0 55.04 25.6 55.04 55.04v391.68H768z" fill="#1296db"></path></svg>
+
 A bunch of useful pre-built modules for nginx, can be used directly in docker or Debian/Ubuntu.
 
 ## Build Env
@@ -7,7 +9,7 @@ A bunch of useful pre-built modules for nginx, can be used directly in docker or
 - https://github.com/nginx-with-docker/nginx-docker-playground
   - Nginx Development Environment based on official docker image.
 
-## Nginx Images
+## Nginx Modules Images
 
 The modules are compatible with nginx version to 1.21.0
 
@@ -26,7 +28,7 @@ The modules are compatible with nginx version to 1.21.0
             <td>0.05</td>
         </tr>
         <tr>
-            <td colspan="3">array-var-nginx-module - Add support for array-typed variables to nginx config files.</td>
+            <td colspan="3">array-var-nginx-module - Add support for array-typed variables to nginx config files.<br /></td>
         </tr>
         <tr>
             <td><a href="https://github.com/cubicdaiya/ngx_dynamic_upstream">ngx_dynamic_upstream</a></td>
@@ -34,7 +36,7 @@ The modules are compatible with nginx version to 1.21.0
             <td>0.1.6</td>
         </tr>
         <tr>
-            <td colspan="3">ngx_dynamic_upstream is the module for operating upstreams dynamically with HTTP APIs such as ngx_http_upstream_conf.</td>
+            <td colspan="3">ngx_dynamic_upstream is the module for operating upstreams dynamically with HTTP APIs such as ngx_http_upstream_conf.<br /></td>
         </tr>
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_echo_module">ngx_http_echo_module</a></td>
