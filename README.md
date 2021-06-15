@@ -49,13 +49,13 @@ The modules are compatible with nginx version to 1.21.0
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_encrypted_session_module">ngx_http_encrypted_session_module</a></td>
             <td>@openresty</td>
-            <td>0.08</td>
+            <td>master / 0.08</td>
         </tr>
         <tr>
             <td colspan="3">encrypted-session-nginx-module - encrypt and decrypt nginx variable values.</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/openresty/headers-more-nginx-module">headers-more-nginx-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_headers_more_filter_module">ngx_http_headers_more_filter_module</a></td>
             <td>@openresty</td>
             <td>0.33</td>
         </tr>
