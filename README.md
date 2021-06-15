@@ -79,7 +79,7 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">You can use this module to perform simple caching.</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/openresty/memc-nginx-module">memc-nginx-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_memc_module">ngx_http_memc_module</a></td>
             <td>@openresty</td>
             <td>0.19</td>
         </tr>
