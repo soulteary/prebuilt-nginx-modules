@@ -95,9 +95,9 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">ngx_set_misc - Various set_xxx directives added to nginx's rewrite module (md5/sha1, sql/json quoting, and many more).</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/wandenberg/nginx-push-stream-module">nginx-push-stream-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_push_stream_module">ngx_http_push_stream_module</a></td>
             <td>@wandenberg</td>
-            <td>1cdc015</td>
+            <td>master / 0.5.4</td>
         </tr>
         <tr>
             <td colspan="3">A pure stream http push technology for your Nginx setup. Comet made easy and really scalable.</td>
