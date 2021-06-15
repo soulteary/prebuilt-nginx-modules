@@ -47,7 +47,7 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">ngx_echo - Brings "echo", "sleep", "time", "exec" and more shell-style goodies to Nginx config file.</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/openresty/encrypted-session-nginx-module">encrypted-session-nginx-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_encrypted_session_module">ngx_http_encrypted_session_module</a></td>
             <td>@openresty</td>
             <td>0.08</td>
         </tr>
