@@ -125,9 +125,9 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">NGINX-based Media Streaming Server</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/openresty/srcache-nginx-module">srcache-nginx-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_srcache_filter_module">ngx_http_srcache_filter_module</a></td>
             <td>@openresty</td>
-            <td>0.32</td>
+            <td>master / 0.32</td>
         </tr>
         <tr>
             <td colspan="3">Transparent subrequest-based caching layout for arbitrary nginx locations.</td>
