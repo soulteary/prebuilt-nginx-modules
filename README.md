@@ -149,9 +149,9 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">NGINX MPEG-TS Live Module.</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/fdintino/nginx-upload-module">nginx-upload-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_upload_module">ngx_http_upload_module</a></td>
             <td>@fdintino</td>
-            <td>643b4c1</td>
+            <td>master / 2.3.0</td>
         </tr>
         <tr>
             <td colspan="3">A module for nginx web server for handling file uploads using multipart/form-data encoding (RFC 1867).</td>
