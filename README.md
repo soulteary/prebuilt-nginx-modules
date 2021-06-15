@@ -71,7 +71,7 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">Media streaming server based on nginx-rtmp-module.</td>
         </tr>
         <tr>
-            <td><a href="https://www.nginx.com/resources/wiki/modules/redis/">ngx_http_redis</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_redis_module">ngx_http_redis_module</a></td>
             <td>@Sergey A. Osokin</td>
             <td>0.3.9</td>
         </tr>
@@ -113,7 +113,7 @@ The modules are compatible with nginx version to 1.21.0
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_subs_filter_module">ngx_http_subs_filter_module</a></td>
             <td>@yaoweibin</td>
-            <td>b8a71ea</td>
+            <td>master</td>
         </tr>
         <tr>
             <td colspan="3">a filter module which can do both regular expression and fixed string substitutions for nginx</td>
