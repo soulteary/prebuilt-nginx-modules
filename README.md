@@ -21,7 +21,7 @@ The modules are compatible with nginx version to 1.21.0
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://github.com/openresty/array-var-nginx-module">array-var-nginx-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_array_var_module">ngx_http_array_var_module</a></td>
             <td>@openresty</td>
             <td>0.05</td>
         </tr>
