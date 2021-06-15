@@ -119,9 +119,9 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">a filter module which can do both regular expression and fixed string substitutions for nginx</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/arut/nginx-rtmp-module">redis2-nginx-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_rtmp_module">ngx_rtmp_module</a></td>
             <td>@arut</td>
-            <td>1.2.2</td>
+            <td>1.2.2 / master</td>
         </tr>
         <tr>
             <td colspan="3">NGINX-based Media Streaming Server</td>
