@@ -124,7 +124,7 @@ A bunch of useful pre-built modules for nginx, can be used directly in docker or
             <td>643b4c1</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/vozlt/nginx-module-vts">nginx-module-vts</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_vhost_traffic_status_module">ngx_http_vhost_traffic_status_module</a></td>
             <td>@vozlt</td>
             <td>Nginx virtual host traffic status module.</td>
             <td>0.1.18</td>
