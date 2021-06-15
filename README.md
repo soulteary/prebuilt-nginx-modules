@@ -156,11 +156,11 @@ A bunch of useful pre-built modules for nginx, can be used directly in docker or
             <td>docker pull soulteary/prebuilt-nginx-modules:waf-1.21.0</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/openresty/xss-nginx-module">xss-nginx-module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_xss_filter_module">ngx_http_xss_filter_module</a></td>
             <td>@openresty</td>
             <td>xss-nginx-module - Native cross-site scripting support in nginx</td>
             <td>0.06</td>
-            <td>docker pull soulteary/prebuilt-nginx-modules:xss-nginx-1.21.0</td>
+            <td>docker pull soulteary/prebuilt-nginx-modules:xss-1.21.0</td>
         </tr>
     </tbody>
 </table>
