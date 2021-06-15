@@ -111,7 +111,7 @@ The modules are compatible with nginx version to 1.21.0
             <td colspan="3">ngx_redis2 - Nginx upstream module for the Redis 2.0 protocol</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/yaoweibin/ngx_http_substitutions_filter_module">ngx_http_substitutions_filter_module</a></td>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_subs_filter_module">ngx_http_subs_filter_module</a></td>
             <td>@yaoweibin</td>
             <td>b8a71ea</td>
         </tr>
