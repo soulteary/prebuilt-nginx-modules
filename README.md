@@ -11,7 +11,7 @@ A bunch of useful pre-built modules for nginx, can be used directly in docker or
 
 ## Nginx Modules Images
 
-The modules are compatible with nginx version to 1.21.0
+The modules are compatible with nginx version to 1.21.1
 
 <table>
     <thead>
