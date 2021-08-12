@@ -22,6 +22,12 @@ The modules are compatible with nginx version to 1.21.1
         </tr>
     </thead>
     <tbody>
+
+        <tr>
+            <td><a href="https://github.com/nginx-with-docker/ngx_http_php_module">ngx_http_php_module</a></td>
+            <td>@rryqszq4</td>
+            <td>8cbb7fb / master</td>
+        </tr>
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_array_var_module">ngx_http_array_var_module</a></td>
             <td>@openresty</td>
