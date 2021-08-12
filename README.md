@@ -28,6 +28,9 @@ The modules are compatible with nginx version to 1.21.1
             <td>8cbb7fb / master</td>
         </tr>
         <tr>
+            <td colspan="3">Embedded php7 scripting language for nginx module. Mainline development version of the ngx_php.<br /></td>
+        </tr>
+        <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_array_var_module">ngx_http_array_var_module</a></td>
             <td>@openresty</td>
             <td>0.05</td>
