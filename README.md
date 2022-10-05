@@ -11,7 +11,7 @@ A bunch of useful pre-built modules for nginx, can be used directly in docker or
 
 ## Nginx Modules Images
 
-The modules are compatible with nginx version to 1.21.1
+The modules are compatible with nginx version to 1.21.1+
 
 <table>
     <thead>
@@ -25,10 +25,10 @@ The modules are compatible with nginx version to 1.21.1
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_php_module">ngx_http_php_module</a></td>
             <td>@rryqszq4</td>
-            <td>8cbb7fb / master</td>
+            <td>73ef8b1 / master</td>
         </tr>
         <tr>
-            <td colspan="3">Embedded php7 scripting language for nginx module. Mainline development version of the ngx_php.<br /></td>
+            <td colspan="3">Embedded php7/php8 scripting language for nginx module. Mainline development version of the ngx_php.<br /></td>
         </tr>
         <tr>
             <td><a href="https://github.com/nginx-with-docker/ngx_http_array_var_module">ngx_http_array_var_module</a></td>
